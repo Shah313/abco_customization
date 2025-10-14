@@ -9,6 +9,13 @@ app_license = "mit"
 # Includes in <head>
 # ------------------
 
+
+
+# Load our JS on Sales Order form
+doctype_js = {
+    "Sales Order": "public/js/sales_order_pp_button.js",
+}
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/abco_customization/css/abco_customization.css"
 # app_include_js = "/assets/abco_customization/js/abco_customization.js"
